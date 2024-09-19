@@ -13,6 +13,7 @@ const CanvasModel = () => {
       camera={{ position: [0, 0, 0], fov: 50 }}
       gl={{ preserveDrawingBuffer: true }}
       className="w-full max-w-full h-full transition-all ease-in"
+      style ={{position :'absolute' , top:'0',left:'0',zIndex:'-1'}}
     >
       <ambientLight intensity={0.5} />
       <Environment preset="city" />
